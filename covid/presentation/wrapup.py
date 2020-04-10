@@ -4,10 +4,9 @@ import streamlit as st
 def content():
     st.balloons()
 
-
     st.title("From Here...")
 
-    st.markdown(":facepunch: Appriciated for your time today. ")
+    st.markdown(":facepunch: Appreciated for your time today. ")
     st.header("Clone")
     st.markdown("""
     * `git clone` from GitHub.
@@ -31,7 +30,7 @@ def content():
      * Fork it or send a pull request.
      """)
 
-    st.header("Collobrate")
+    st.header("Collaborate")
     st.markdown("""
     * Maybe next time we can present together.
     """)
