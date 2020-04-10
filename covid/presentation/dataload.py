@@ -29,7 +29,7 @@ def illustrate(d, with_data=False):
 def content():
     st.title("Data Access and Visualize")
     st.markdown("""
-    * [CSSEGISandData COVID-19 Github Repository](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports)
+    * [CSSEGISandData COVID-19 Github Repository](https://github.com/CSSEGISandData/COVID-19)
     """)
 
     d = load_proxy()
@@ -74,7 +74,7 @@ def content():
     st.subheader("Germany Stats")
     illustrate(d.query("Country == 'Germany' "))
 
-    st.subheader("Germany Stats")
+    st.subheader("New York Stats")
     illustrate(d.query("Province == 'New York' "), with_data=True)
 
     st.subheader("Turkey Stats")
