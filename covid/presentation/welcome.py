@@ -20,7 +20,7 @@ def content():
     st.markdown("""
     * No powerpoint slides.
     * Real data, real code, real execution.
-    * Codes are available in [globalmaksimum GitHub account](https://github.com/GlobalMaksimum) after the webinar.
+    * Codes are available in [globalmaksimum GitHub account](https://github.com/GlobalMaksimum/covid19-webinar.git) now.
     * Screen is split into two parts:
       * **LHS**: *PyCharm Community Edition* to edit Python codes.
       * **RHS**: *Streamlit Server* showing you the results of things I do.
