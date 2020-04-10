@@ -1,4 +1,8 @@
 streamlit
+altair
+h2o
 pandas
+pyarrow
 numpy
-sklearn
+scipy
+scikit-learn
