@@ -31,13 +31,13 @@ def content():
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png",
              width=100)
     st.subheader("numpy")
-    st.markdown("Any vector, matrix or multidimentional array opeations.")
+    st.markdown("""
+    * Any vector, matrix or multidimentional array operations.
+    * Least Square (lstsq) Regression Solver
+    """)
     st.image("https://user-images.githubusercontent.com/1217238/65364991-9f0fcb80-dbca-11e9-89a1-f369aa2be57a.png",
              width=100)
-    st.subheader("scipy")
-    st.markdown("LSQ Regression Solver")
-    st.image("https://www.fullstackpython.com/img/logos/scipy.png",
-             width=80)
+   
     st.markdown(r"### $H_2O$ AutoML")
     st.markdown("You are currently looking at it.")
     st.image("https://i0.wp.com/sefiks.com/wp-content/uploads/2019/09/h2o-automl.jpg?fit=835%2C900&ssl=1",
