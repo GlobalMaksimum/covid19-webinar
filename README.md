@@ -1,14 +1,19 @@
-1. Install the dependencies using `pip install -r requirements.txt`
-2. Run
+# Welcome to COVID-19 Webinar
+
+**A Tutorial on Modelling Number of Infected Cases in Turkey of COVID-19 Using Machine Learning & AI**
+
+This repository includes several models we have utilized in early stages of COVID-19 pandemic (first 30 days) 
+to understand, model and predict daily confirmed numbers.
+
+![Quick Tour on our Webinar|635x380](resources/screen-o-cast.gif)
+
+
+## Installation
+
 ```bash
+pip install -r requirements.txt
+
 PYTHONPATH=.:$PYTHONPATH streamlit run main.py
 ```
 
-```bash
-
-  You can now view your Streamlit app in your browser.
-
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.1.24:8501
-
-```
+Ensure that your Python is 3.7 or  above. 
