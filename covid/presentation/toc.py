@@ -18,8 +18,33 @@ def content():
     We do depend on **Python 3.7**
     
     * Function parameter & return type annotations (this is **Python 3.6**, I guess)
-    * `f-strings`
-    * And some more which i don't remember :blush:
+      * Also a few variable type annotations (much less frequently)
+    """)
+    with st.echo():
+        from typing import List, Tuple
+
+        def func(p_a: int, p_b: str, p_c: float) -> Tuple[int, str, float]:
+            return p_a, p_b, p_c
+
+        a: int = 1
+        b: str = "Hello"
+        c: float = 2.0
+
+        v = func(a, b, c)
+
+    st.markdown("* `f-string` allows us to interpolate variables into strings.")
+    with st.echo():
+        s = f"func({a}, {b}, {c}) returns a tuple with value {v}"
+    st.markdown(s)
+
+    st.markdown("""
+    * Thousand separator notation for constants
+    """)
+    with st.echo():
+        myflumsy_variable = 100_000  # instead of myflumsy_variable = 100000
+
+    st.markdown("""
+    * And some more which I don't remember :blush:
     """)
 
     st.subheader("streamlit")
@@ -37,7 +62,7 @@ def content():
     """)
     st.image("https://user-images.githubusercontent.com/1217238/65364991-9f0fcb80-dbca-11e9-89a1-f369aa2be57a.png",
              width=100)
-   
+
     st.markdown(r"### $H_2O$ AutoML")
     st.markdown("You are currently looking at it.")
     st.image("https://i0.wp.com/sefiks.com/wp-content/uploads/2019/09/h2o-automl.jpg?fit=835%2C900&ssl=1",
