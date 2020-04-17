@@ -7,3 +7,5 @@ from covid.presentation.dataload import content as dataload
 from covid.presentation.exponential import content as expo
 from covid.presentation.ml import content as ml
 from covid.presentation.gm import content as gm
+
+from covid.presentation.sir import content as SIR
