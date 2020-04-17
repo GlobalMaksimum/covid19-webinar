@@ -8,6 +8,8 @@ def content():
     st.markdown("""
     * Basic Understanding of Probability and Statistics
     * Calculus 101 
+    * Basic Understanding of Differential Equations
+      * Just to be able to understand what is going on
     * Fundamental Machine Learning
     """)
     st.header("Python Toolbox")
