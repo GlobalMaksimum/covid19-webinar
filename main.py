@@ -31,6 +31,7 @@ chapters = ("Welcome on Board",
             "Abstract",
             "Loading COVID Data",
             "Exponential Models",
+            "SIR",
             "ML Models",
             "Wrap-up")
 
@@ -39,6 +40,7 @@ callable_dict = {"Welcome on Board": welcome,
                  "Loading COVID Data": dataload,
                  "Wrap-up": wrapup,
                  "Exponential Models": expo,
+                 "SIR": SIR,
                  "ML Models": ml,
                  "Global Maksimum AI Team COVID Journey": gm}
 
