@@ -19,6 +19,7 @@ def download_or_cache(file: str):
 
     if not os.path.exists(parquet_file):
         url = os.path.join(__base__, file)
+        logger.debug(url)
         df_d = pd.read_csv(url)
 
         df_d.to_parquet(parquet_file)
@@ -39,7 +40,7 @@ def map_loc(rec):
         return f"{rec.Country}, {rec.Province}"
 
 
-def load_data(start_date: str = '01-22-2020', end_date: str = '04-08-2020', normalized: bool = True,
+def load_data(start_date: str = '01-22-2020', end_date: str = '04-16-2020', normalized: bool = True,
               min_confirmed: int = 100):
     dt_range = pd.date_range(start=pd.to_datetime(start_date), end=pd.to_datetime(end_date))
 
